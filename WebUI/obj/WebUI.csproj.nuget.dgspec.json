@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\WebUI.csproj": {}
+    "C:\\Users\\wingh\\Documents\\revature\\Team-Name-Project\\WebUI\\WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\WebUI.csproj": {
+    "C:\\Users\\wingh\\Documents\\revature\\Team-Name-Project\\WebUI\\WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\wingh\\Documents\\revature\\Team-Name-Project\\WebUI\\WebUI.csproj",
         "projectName": "WebUI",
-        "projectPath": "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\WebUI.csproj",
-        "packagesPath": "C:\\Users\\Jacob Maniscalco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\obj\\",
+        "projectPath": "C:\\Users\\wingh\\Documents\\revature\\Team-Name-Project\\WebUI\\WebUI.csproj",
+        "packagesPath": "C:\\Users\\wingh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wingh\\Documents\\revature\\Team-Name-Project\\WebUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jacob Maniscalco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\wingh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

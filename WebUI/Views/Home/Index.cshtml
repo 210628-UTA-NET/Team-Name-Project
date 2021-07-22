@@ -4,16 +4,29 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section head{
+    <style type="text/css">
+        .text-center img {
+            position: absolute;
+            left: 0;;
+            top: 0;
+            width: 100%;
+            height: auto;
+            z-index: -1;
+            opacity: 0.4;
+        }
+    </style>
+}
+
 <div class="text-center">
+    <img src="https://pbs.twimg.com/media/EWELGh9U4AEbxek.jpg" alt="doggo joke">
     <h1 class="display-4">Welcome User, I'm Dad!</h1>
     <p>How about a joke?</p>
     <div class="joke-body">
         <h1 class="display"> </h1>
         <p> 
-            <!-- @Model.Joke -->
             @Html.DisplayFor(m => m.Joke)
         </p>
         <a class="btn btn-primary" asp-action="Index">Get Joke</a>
     </div>
-
 </div>

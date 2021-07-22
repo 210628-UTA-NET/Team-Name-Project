@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 
-    <!-- dog joke image (trying to get as background) -->
-    <link rel="stylesheet" href="~/Views/Home/CSS/background.css">
+    <!-- allows a separate head to render (background img for index.cshtml) -->
+    @RenderSection("head", required: false)
 </head>
 <body>
     <header>
