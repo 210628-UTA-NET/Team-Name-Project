@@ -1,8 +1,19 @@
-﻿@{
+﻿@model WebUI.Models.JokeViewModel
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome User, I'm Dad!</h1>
+    <p>How about a joke?</p>
+    <div class="joke-body">
+        <h1 class="display"> </h1>
+        <p> 
+            <!-- @Model.Joke -->
+            @Html.DisplayFor(m => m.Joke)
+        </p>
+        <a class="btn btn-primary" asp-action="Index">Get Joke</a>
+    </div>
+
 </div>

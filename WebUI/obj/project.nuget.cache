@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pG7LsUq+mhiI7rnmf4NMd5pJxLjDkJHZHc72bvx9q/LUQkBzAGTuv1/2b9VdIML2m3SM+RPpdBMtiJftsW1JNw==",
+  "dgSpecHash": "wEE74EOrwcbOXxtO+E8dEDE2Zr/KEgSPy5jZF+l4Kx8/lBdEofN8XtLNFoLFu3WULk82cUQPdJNok6WuI8+lvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jacob Maniscalco\\Documents\\Revature\\TeamNameProject\\WebUI\\WebUI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Jacob Maniscalco\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
