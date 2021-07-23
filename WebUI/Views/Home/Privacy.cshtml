@@ -1,7 +1,25 @@
 @{
     ViewData["Title"] = "Privacy Policy";
 }
+
+@section head{
+    <style type="text/css">
+        .my-container img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+    </style>
+}
+
 <h1>@ViewData["Title"]</h1>
 
-<p>My son came home as I was taking his door off it’s hinges and asked “Dad what are you doing?”.</p>
-<p>“We’ve updated our privacy policy”</p>
+<div class="my-container">
+    <img src="https://media-cdn.tripadvisor.com/media/photo-s/04/61/55/7d/door-off-it-s-hinges.jpg" alt="dad smiling door swinging">
+    <p>My son came home as I was taking his door off it’s hinges and asked “Dad what are you doing?”.</p>
+    <p>“We’ve updated our privacy policy”</p>
+</div>
